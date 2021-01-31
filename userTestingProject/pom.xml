@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ytp</groupId>
-	<artifactId>springBootApplication</artifactId>
+	<artifactId>testingProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springBootApplication</name>
+	<name>testingProject</name>
 	<description>web project for Spring Boot</description>
 
 	<properties>
@@ -38,6 +38,19 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui -->
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger-ui</artifactId>
+    <version>2.6.1</version>
+</dependency>
+		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger2</artifactId>
+    <version>2.6.1</version>
+</dependency>
+		
 	</dependencies>
 
 	<build>

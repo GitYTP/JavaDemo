@@ -1,14 +1,13 @@
-package com.ytp.pack;
+package com.ytp.testing;
 
 import org.springframework.boot.SpringApplication;
-
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
+public class TestingProjectApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(TestingProjectApplication.class, args);
 	}
 
 }
